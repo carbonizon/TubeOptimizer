@@ -1,0 +1,43 @@
+.first {
+    margin-top: 40px;
+}
+.centertext {
+    text-align: center;
+}
+.centerit {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.failed {
+    background-color: red;
+    color: white;
+}
+.youtubelogo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 400px !important;
+    width: 100%;
+}
+.optimizer {
+    font-weight: normal;
+    font-size: 55px;
+}
+body {
+    background-color: #D8D8D8;
+    font-family: 'Source Sans Pro';
+}
+.footer {
+    display: block;
+    max-width: 344px !important;
+    width: 100%;
+    margin-top:5px;
+}
+.nodec:hover {
+    text-decoration: none;
+    color: grey
+}
+.nodec {
+    color: black;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carbonizon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a class="nodec" href="index.html">
+        <img class="youtubelogo" src="images/YouTube-logo-dark.png">
+          <h1 class="centertext optimizer" style="font-family: 'Source Sans Pro'">Optimizer</h1>
+        </a>
+      </div>
+      <p class="centerit centertext" style="max-width:500px;">This will produce a fully optimized and linked title, description and tags to ensure that your video ranks well in YouTube and Google for your 'product' keyword.</p>
+      <div class="first">
+        <p style="font-weight: bold;">Type Your Landing Page Here</p>
+        <p style="font-size:12px;max-width:375px;">To stay safe with YouTube, this should be a landing page on your site rather than a direct affiliate link.</p>
+        <form onsubmit="return false;" id="first nosubmit" class="form-horizontal centerit" role="form">
+          <div class="form-group">
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="lp" value="http://">
+            </div>
+          </div>
+          <button type="button" id="first" class="btn btn-default">Proceed</button>
+        </form>
+      </div>
+      <div class="second">
+        <p style="font-weight: bold; margin-top:20px;">Type the name of the product</p>
+        <p style="font-size:12px;max-width:375px;">This will also be the keyword you want to rank for (don't include 'review' here - just the product name)</p>
+        <form onsubmit="return false;" id="second nosubmit" class="form-horizontal centerit" role="form">
+          <div class="form-group">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="product" value="">
+            </div>
+          </div>
+          <button type="button" id="second" class="btn btn-default">Proceed</button>
+        </form>
+      </div>
+      <div class="third">
+        <p style="font-weight: bold; margin-top:20px;">Type the #1 benefit of the product</p>
+        <p style="font-size:12px;max-width:375px;">Simply finish the sentence: "Discover how this product can help you...run faster than Usain Bolt</p>
+        <form onsubmit="return false;" id="first nosubmit" class="form-horizontal centerit" role="form">
+          <div class="form-group">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="benefit" value="">
+            </div>
+          </div>
+          <button type="button" id="third" class="btn btn-default">Proceed</button>
+        </form>
+      </div>
+      <div class="fourth">
+        <p style="font-weight: bold; margin-top:20px;">What type of product is it?</p>
+        <p style="font-size:12px;max-width:375px;">Enter here the type of product. For example: The Samsung Galaxy is a...fully loaded smart phone</p>
+        <form onsubmit="return false;" id="first nosubmit" class="form-horizontal centerit" role="form">
+          <div class="form-group">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="type" value="">
+            </div>
+          </div><button type="button" id="fourth" class="btn btn-default">Proceed</button>
+        </form>
+      </div>
+      <div class="fifth">
+        <p style="font-weight: bold; margin-top:20px;">1st feature about the product</p>
+        <p style="font-size:12px;max-width:375px;">Type a cool feature. These will be bullet points so keep them short & sweet</p>
+        <form onsubmit="return false;" id="first nosubmit" class="form-horizontal centerit" role="form">
+          <div class="form-group">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="feature1" value="">
+            </div>
+          </div>
+          <button type="button" id="fifth" class="btn btn-default" >Proceed</button>
+        </form>
+      </div>
+      <div class="sixth">
+        <p style="font-weight: bold; margin-top:20px;">2nd feature about the product</p>
+        <p style="font-size:12px;max-width:375px;">One more</p>
+        <form onsubmit="return false;" id="first nosubmit" class="form-horizontal centerit" role="form">
+          <div class="form-group">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="feature2" value="">
+            </div>
+          </div>
+          <button type="button" id="sixth" class="btn btn-default">Proceed</button>
+        </form>
+      </div>
+      <div class="seventh">
+        <p style="font-weight: bold; margin-top:20px;">3rd feature about the product</p>
+        <p style="font-size:12px;max-width:375px;">Last one, I promise</p>
+        <form onsubmit="return false;" id="first nosubmit" class="form-horizontal centerit" role="form">
+          <div class="form-group">
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="feature3" value="">
+            </div>
+          </div>
+          <button type="button" id="seventh" class="btn btn-default">Proceed</button>
+        </form>
+      </div>
+      <div class="output1">
+        <p style="font-weight:bold;">Choose Your Title:</p>
+        <p><span class="product"></span><br><strong>or</strong><br><span class="product"></span> Review</p>
+        <p style="font-weight:bold;padding-top:40px;">Description:</p>
+        <p><span class="lp"></span> <span class="product"></span> Review.</p>
+        <p>Check out my <span class="product"></span> Review and discover how <span class="product"></span> can help you <span class="benefit"></span>.</p>
+        <p><span class="product"></span> Review:</p>
+        <p><span class="product"></span> is a <span class="type"></span> which has these cool features:</p>
+        <p>- <span class="feature1"></span><br>- <span class="feature2"></span><br>- <span class="feature3"></span></p>
+        <p>....and much, much more.</p>
+        <p>Be sure to see video review above for the full story about <span class="product"></span></p>
+        <p>You can get more details including users' opinions about the <span class="product"></span> here:</p>
+        <p><span class="lp"></span></p>
+        <p>Thank you for tuning in for my review of the <span class="product"></span>.</p>
+        <p style="font-weight:bold;padding-top:40px;">Tags:</p>
+        <p><span class="product"></span>, <span class="product"></span> Review</p>
+      </div>
+      <div class="output2">
+        <p style="font-weight:bold;">Choose Your Title:</p>
+        <p><span class="product"></span><br><strong>or</strong><br><span class="product"></span> Review</p>
+        <p style="font-weight:bold;padding-top:40px;">Description:</p>
+        <p><span class="lp"></span> <span class="product"></span> Review.</p>
+        <p>Check out this <span class="product"></span> Review and learn how <span class="product"></span> can help you <span class="benefit"></span>.</p>
+        <p><span class="product"></span> Review:</p>
+        <p><span class="product"></span> is a <span class="type"></span> which has these awesome features:</p>
+        <p>- <span class="feature1"></span><br>- <span class="feature2"></span><br>- <span class="feature3"></span></p>
+        <p>....and much, much more.</p>
+        <p>Be sure to see video review above for the full synopsis about <span class="product"></span></p>
+        <p>You can get more details including users' opinions about the <span class="product"></span> here:</p>
+        <p><span class="lp"></span></p>
+        <p>Thank you for watching my review on the <span class="product"></span>.</p>
+        <p style="font-weight:bold;padding-top:40px;">Tags:</p>
+        <p><span class="product"></span>, <span class="product"></span> Review</p>
+      </div>
+      <div style="max-width:344px; float:right;"><a href="http://192.185.28.5/~chris/carbonizon/" target="_blank"><img class="footer" src="images/logo-carbon.png"></a></div>
+    </div>
+  </body>
+  <script type="text/javascript" charset="iso-8859-1" src="js/jss.js"></script>
+</html>
